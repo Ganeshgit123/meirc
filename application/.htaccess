@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^meircsa.com [NC]
+RewriteRule ^(.*)$ https://www.meircsa.com/$1 [L,R=301]
+
